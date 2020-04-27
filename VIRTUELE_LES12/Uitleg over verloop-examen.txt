@@ -1,0 +1,18 @@
+Schriftelijk examen (15/06)
+- vóór het examen: indienen code en powerpoint en doc met uitleg over uw design pattern
+- 3 onderdelen: - 1. Met algemene kennistest (bv Leg met een voorbeeld uit: static classes waarvoor kan dit dienen,..)
+			- MVC pattern geeft uitleg hierover
+			- extension method (waarom zou je dit maken)
+			-...
+		 -2. Applicatie schrijven (Web App Web API of MVC) in ASP.NET 3.1
+				met EF Core ofwel database-first/code-first zonder db of met bestaande Sql Svr db)
+			
+
+		 -3. Doordenkertje: Een design pattern (van de geziene) toepassen op een voorbeeldproject
+				bv Decorator pattern
+
+Mondeling examen (Aug/september)
+- Eindwerkvoorstelling
+- Design pattern uitleggen (presentatie) die je als opdracht hebt gekregen 
+		(voor degene die nog geen presentatie hebben gedaan)
+- Een paar inzichtsvragen (o.a. uit e-learning videoreeks authorisatie)
