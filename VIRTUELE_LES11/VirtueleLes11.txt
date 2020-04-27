@@ -1,0 +1,42 @@
+Mogelijke examenvragen (sollicitatievraag):
+
+Welke 2 componenten zijn dezelfde bij Web Api (Restful web service)
+als bij MVC Web Apps? Controllers en Models
+(Geen Views bij Web Api) 
+Een web api geeft rechtstreeks data (json-data) in Postpan
+ToDoApi RPGApi (Role playing game) 
+
+Welke componenten zijn er bij MVC? (Mvc ontwerppatroon - design pattern)
+Geef wat uitleg bij elke component.
+Waarom 
+Welk design principe wordt hier gebruikt? Soc
+DI (design pattern) : losse verbindingen tussen classen te maken
+
+Design principe: IoC (Inversion of Control) - Hogere componenten niet lagen afhankelijk 
+laten zijn van Lagere compenenten 
+Laat eerder lage componenten afhangen van de hogere (met losse verbinding)
+
+In welke class en welke methode registreren we de services via 
+de DI Container van ASP.NEt Core? In startup class - ConfigureServices
+services.AddDbContext<ApplicationDbContext>(...)
+
+onder folder Data/Migrations
+class 000...000_CreateIdentitySchema
+in de methode Up(...): tabellen aanmaken in de database via Fluent APi
+
+Tegenhanger van APi methode om tabellen en colommen aan te maken/mappen
+via de model classes: via data-annotations (attributen)
+
+Leg uit wat bij Mvc de HTTP Request pipeline.
+Waar (class en methode) wordt dit geconfigureerd?
+startup class/Configure
+Reeds componenten (middleware) die je kan tussenschakelen in de pipeline
+
+POCO(Plain old CLR class) class: een class niet afhankelijk is van bep frameworks
+CRUD operaties= Create/Read/Update/Delete
+
+ORM Wat is dit, waarvoor dient het en welke ORM hebben in onze 
+projecten gebruikt: Object Relational Mapper - Entity Framework (Core)
+Wat doet het: dit gaat relationele tabellen (en properties op kolommen) 
+van database mappen op entity classes (werken met Linq to entities)
+(bv Category class is gemapt via EF Core op Tabel Category in Sql Server Db)
